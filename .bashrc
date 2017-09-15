@@ -1,3 +1,8 @@
+##############################################################################
+# ~/.bashrc 
+##############################################################################
+
+
 # Source if file exists
 source_exist() {
     [[ -f $1 ]] && source $1
@@ -13,6 +18,10 @@ source_exist ~/git-prompt.sh
 source_exist ~/.bash_nag
 source_exist ~/.bash_alii
 
+# Enable history appending instead of overwriting when exiting.
+shopt -s histappend
+
+# prompt 
 function __prompt_command() {
     PROMPT_RESET="\e[00m"
     PROMPT_WHITE="\e[37m"

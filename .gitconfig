@@ -1,0 +1,7 @@
+# This is Git's per-user configuration file.
+[user]
+	name = brett currie
+	email = brett.currie1@ibm.com 
+[alias]
+	st = status -s
+	new = checkout -b
