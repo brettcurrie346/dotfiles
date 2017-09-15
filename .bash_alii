@@ -1,4 +1,19 @@
+##############################################################################
+# ~/.bash_alii
+# alias? aliases? alii?  
+##############################################################################
+
+# macOS is boring by default
 alias ls='ls -G'
 
+alias ll='ls -lta'
 alias la='ls -a'
+
+# for syncing dotfiles
 alias config='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias bashrc='vim ~/.bashrc'
+
+# the magic word
+alias pls='sudo'
+
+
