@@ -5,3 +5,5 @@
 [alias]
 	st = status -s
 	new = checkout -b
+[core]
+	editor = /usr/bin/vim
