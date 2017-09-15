@@ -3,6 +3,7 @@
 # alias? aliases? alii?  
 ##############################################################################
 
+alias ls='ls -G'
 alias ll='ls -lta'
 alias la='ls -a'
 
