@@ -3,9 +3,6 @@
 # alias? aliases? alii?  
 ##############################################################################
 
-# macOS is boring by default
-alias ls='ls -G'
-
 alias ll='ls -lta'
 alias la='ls -a'
 
